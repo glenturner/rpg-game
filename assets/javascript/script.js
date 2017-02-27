@@ -30,6 +30,7 @@ var characters = {
 	imageUrl: "assets/images/Dumbledore.jpg",
 	enemyAttackBack: 14
 	}
+}
 
 
 
@@ -39,72 +40,50 @@ var characters = {
 
 
 
-		var harryPotterImage = $("<img alt:'image' class:'auth-image'>").attr("src", "Harry-Potter".imageUrl);
+		var harryPotterImage = $("<img>");
 
- 
-//Then append harryPotterImage
-
-		/*harryPotter.attr({
-			"src": "assets/images/harry-p.jpg",
-			"class": "char1",
-			"alt": "harry potter",
-			"health-points": potterHealth,
-			"attack-power": attackPower,
-			"c-attack-power": strongCounterAttack*/
-
-
-	// 	})
+		harryPotterImage.attr({
+		"src": "assets/images/harry-p.jpg",
+		"class": "char1",
+		"alt": "harry potter",
+		"name": "Harry Potter",
+	  	})
 
 		$(".images").append(harryPotterImage);
+		
+			var dumbledoreImage = $("<img>");
 
+			dumbledoreImage.attr({
+				"src": "assets/images/Dumbledore.jpg",
+				"class": "char2",
+				"alt": "dumbledore",
+				})
+
+				$(".images").append(dumbledoreImage);
+
+			var voldemortImage = $("<img>");
+
+			voldemortImage.attr({
+				"src": "assets/images/voldemort.jpg",
+				"class": "char3",
+				"alt": "voldemort",
+				})
+
+				$(".images").append(voldemortImage);
+
+
+				var snapeImage = $("<img>");
+
+				 snapeImage.attr({
+			     "src": "assets/images/snape.jpg",
+				 "class": "char4",
+				 "alt": "snape",
+				 })
+
+				 $(".images").append(snapeImage);
 	}
 	
 	
-
-
-	// 	var dumbledore = $("<img>");
-
-	// 	dumbledore.attr({
-	// 		"src": "assets/images/Dumbledore.jpg",
-	// 		"class": "auth-image dumdbledore",
-	// 		"alt": "dumbledore",
-	// 		"health-points": dumbledoreHealth,
-	// 		"attack-power": attackPower,
-	// 		"c-attack-power": strongCounterAttack
-
-	// 	})
-	// 	// greenStone.attr("data.index",crystalTwo);
-	// 	$(".images").append(dumbledore);
-
-	// 	var voldemort = $("<img>");
-
-	// 	voldemort.attr({
-	// 		"src": "assets/images/voldemort.jpg",
-	// 		"class": "auth-image voldemort",
-	// 		"alt": "voldemort",
-	// 		"health-points": voldemortHealth,
-	// 		"attack-power": attackPower,
-	// 		"c-attack-power": counterAttack
-
-	// 	})
-	// 	// rubyStone.attr("data.index",crystalThree);
-	// 	$(".images").append(voldemort);
-
-
-	// 	var snape = $("<img>");
-
-	// 	 snape.attr({
-	// 		"src": "assets/images/snape.jpg",
-	// 		"class": "auth-image snape",
-	// 		"alt": "harry potter",
-	// 		"health-points": snapeHealth,
-	// 		"attack-power": attackPower,
-	// 		"c-attack-power": counterAttack
-
-	// 	})
-	// 	//rubyStone.data(crystalTwo);
-	// 	$(".images").append(snape);
-	// }
 
 	 createCharacters();
 

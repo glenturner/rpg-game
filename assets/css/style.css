@@ -7,8 +7,12 @@ h1 {
 	font-family: Parry Hotter;
 	color: #f7cc1b;
 	font-size: 40px;
-	
+}
 
+h2 {
+	font-family: Parry Hotter;
+	color: #f7cc1b;
+	font-size: 24px;
 }
 
 .rpg {
@@ -16,16 +20,6 @@ h1 {
 	margin-right: 125px;
 }
 
-.auth-image {
-	height: 125px;
-	width: 125px;
-	border: solid;
-	border-color: white;
-	outline: 2px solid #f7cc1b;
-	border-width: 16px;
-	background-color: white;
-	margin-top: 100px;
-}
 
 p {
 	color: #f7cc1b ;
@@ -33,7 +27,7 @@ p {
  	
 }
 
-.char1 {
+.char1, .char2, .char3, .char4 {
 
 	height: 125px;
 	width: 125px;
@@ -45,5 +39,10 @@ p {
 	margin-top: 100px;
 	color: #f7cc1b ;
 	font-family: Parry Hotter;
+	margin-left: 10px;
+}
 
+.container-button {
+	color:#f7cc1b;
+	font-family: Parry Hotter;
 }
