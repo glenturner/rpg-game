@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/harry-potter-bg.jpg");
+
+}
+
+h1 {
+	font-family: Parry Hotter;
+	color: #f7cc1b;
+	font-size: 40px;
+	
+
+}
+
+.rpg {
+	float: right;
+	margin-right: 125px;
+}
+
+.auth-image {
+	height: 125px;
+	width: 125px;
+	border: solid;
+	border-color: white;
+	outline: 2px solid #f7cc1b;
+	border-width: 16px;
+	background-color: white;
+	margin-top: 100px;
+}
+
+p {
+	color: #f7cc1b ;
+	font-family: Parry Hotter;
+ 	
+}
+
+.char1 {
+
+	height: 125px;
+	width: 125px;
+	border: solid;
+	border-color: white;
+	outline: 2px solid #f7cc1b;
+	border-width: 16px;
+	background-color: white;
+	margin-top: 100px;
+	color: #f7cc1b ;
+	font-family: Parry Hotter;
+
+}
